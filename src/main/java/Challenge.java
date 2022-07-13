@@ -14,7 +14,7 @@ public class Challenge {
         }
         System.out.println("Enter word to find!");
         Scanner scan = new Scanner(System.in);
-        String find = scan.nextLine();
+        String find = scan.nextLine().toLowerCase();
         letterCounter(charArray, find);
     }
     public static int letterCounter(String[][] charArray, String find){
